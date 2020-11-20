@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="node_modules/react/umd/react.development.js"></script>
+    <script src="node_modules/react-dom/umd/react-dom.development.js"></script>
+    <script src="node_modules/babel-standalone/babel.js"></script>
+</head>
+<body>
+<div id="reactDemo"></div>
+<script type="text/babel">
+  //渲染外部传入的props的数据
+  let bool=false;
+  let MyCom=(props)=>{
+    return (
+      <div style={{display:bool?"block":'none'}}>
+        我是子组件
+        {props.arr.map((item,i)=>{
+          return <p key={i}>{item}</p>
+        })}
+      </div>
+    )
+  }
+  let dataArr=['1','22','333'];
+  function ck(){
+    bool=!bool;
+  }
+  let Com=()=>{
+    return(
+      <div onClick={()=>{ck();console.log(bool);render()}}>
+        我是父组件
+        <MyCom arr={dataArr}/>
+      </div>
+    )
+  }
+  function render(){
+    ReactDOM.render(<Com/>,document.getElementById('reactDemo'));
+  }
+  render();
+
+
+</script>
+</body>
+</html>

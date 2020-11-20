@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="node_modules/react/umd/react.development.js"></script>
+    <script src="node_modules/react-dom/umd/react-dom.development.js"></script>
+    <script src="node_modules/babel-standalone/babel.js"></script>
+</head>
+<body>
+<div id="reactDemo"></div>
+<script type="text/babel">
+  class Com extends React.Component{
+    constructor(props){
+      super(props);
+      this.myRef=React.createRef();
+    }
+    fun=()=>{
+      // console.log(this.refs.demoInput.value);
+      // console.log(this.textInput.value);
+      console.log(this.myRef.current.value);
+    }
+    render(){
+      return (
+        <div>
+            我是组件
+          {/*1.
+          <input type="text" ref="demoInput" placeholder="请输入"/>
+          */}
+
+          {/*
+          <input type="text" ref={(input)=>{this.textInput=input}} placeholder="请输入"/>
+          */}
+          <input type="text" ref={this.myRef} placeholder="请输入"/>
+            <button onClick={this.fun}>点我</button>
+        </div>
+      )
+    }
+  }
+ReactDOM.render(<Com/>,document.getElementById('reactDemo'))
+
+</script>
+</body>
+</html>

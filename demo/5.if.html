@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="node_modules/react/umd/react.development.js"></script>
+    <script src="node_modules/react-dom/umd/react-dom.development.js"></script>
+    <script src="node_modules/babel-standalone/babel.js"></script>
+</head>
+<body>
+<div id="reactDemo"></div>
+<script type="text/babel">
+  class Com extends React.Component{
+    constructor(props){
+      super(props);
+      this.state={
+        bool:true
+      }
+    }
+    func(){
+      this.setState({
+        bool:!this.state.bool
+      })
+    }
+    render(){
+      let text;
+      if(this.state.bool){
+        text="nihao"
+      }else{
+        text="你坏"
+      }
+
+      return (
+
+        <div>
+          {text}
+          <p>三元运算符：{this.state.bool?"aa":"nn"}</p>
+            <button onClick={this.func.bind(this)}>bind绑定this</button>
+        </div>
+      )
+    }
+  }
+ReactDOM.render(<Com/>,document.getElementById('reactDemo'))
+
+</script>
+</body>
+</html>

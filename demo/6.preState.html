@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="node_modules/react/umd/react.development.js"></script>
+    <script src="node_modules/react-dom/umd/react-dom.development.js"></script>
+    <script src="node_modules/babel-standalone/babel.js"></script>
+</head>
+<body>
+<div id="reactDemo"></div>
+<script type="text/babel">
+  class Coma extends React.Component{
+    constructor(props){
+      super(props);
+      this.state={
+        bool:true
+      }
+    }
+    render(){
+     return (
+        <div>
+          我是第一个组件————{this.props.text}
+         </div>
+      )
+    }
+  }
+  class Comb extends React.Component{
+    constructor(props){
+      super(props);
+      this.state={
+        bool:true
+      }
+    }
+    render(){
+      return (
+        <div>
+          我是第er个组件————{this.props.text}
+             </div>
+      )
+    }
+  }
+  class Com extends React.Component{
+    constructor(props){
+      super(props);
+      this.state={
+        comtext:"我是两个子组件都想使用的state"
+      }
+    }
+    render(){
+      return (
+        <div>
+          我是父组件
+          <Coma text={this.state.comtext}/>
+          <Comb text={this.state.comtext}/>
+        </div>
+      )
+    }
+  }
+
+ReactDOM.render(<Com/>,document.getElementById('reactDemo'))
+
+</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="node_modules/react/umd/react.development.js"></script>
+    <script src="node_modules/react-dom/umd/react-dom.development.js"></script>
+    <script src="node_modules/babel-standalone/babel.js"></script>
+</head>
+<body>
+<div id="reactDemo"></div>
+<script type="text/babel">
+  class Com extends React.Component{
+    constructor(props){
+      super(props);
+      this.func=this.func.bind(this);
+    }
+    fun(){
+      console.log(this);
+    }
+    fun2=()=>{
+      console.log(this);
+    }
+    func(){
+      console.log(this);
+    }
+    fune=(i,e)=>{
+      console.log(this);
+    }
+
+    render(){
+      return (
+        <div>
+            绑定this
+            <button onClick={this.fun.bind(this)}>bind绑定this</button>
+            <button onClick={this.fun2}>箭头函数</button>
+            <button onClick={this.func}>提前绑定</button>
+            <button onClick={()=>{console.log(this)}}>调用方式为箭头函数</button>
+           <h1>绑定函数传参</h1>
+           <button onClick={this.fun.bind(this,"参数1","canshu2")}>bind绑定this</button>
+           <button onClick={(e)=>{this.fune("参数",e)}}>箭头函数传参</button>
+        </div>
+      )
+    }
+  }
+ReactDOM.render(<Com/>,document.getElementById('reactDemo'))
+
+</script>
+</body>
+</html>
