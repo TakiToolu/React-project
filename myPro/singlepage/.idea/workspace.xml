@@ -2,93 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="273130f2-0c2c-477d-b52f-c7ec08d35d3b" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/../../DOM-DIFF/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DOM-DIFF/.idea/DOM-DIFF.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DOM-DIFF/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DOM-DIFF/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DOM-DIFF/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DOM-DIFF/dom-diff/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DOM-DIFF/dom-diff/src/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DOM-DIFF/dom-diff/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DOM-DIFF/dom-diff/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DOM-DIFF/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/1.props.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/2.state.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/4.event.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/5.if.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../demo/6.preState.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../firstPro/my-app/mock/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../firstPro/my-app/src/1.props&amp;&amp;state/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../firstPro/my-app/src/1.props&amp;&amp;state/News.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../firstPro/my-app/src/1.props&amp;&amp;state/Phone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../firstPro/my-app/src/2.axios&amp;&amp;serverJson/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../firstPro/my-app/src/3.router/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../firstPro/my-app/src/3.router/News.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../firstPro/my-app/src/3.router/Phone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../firstPro/my-app/src/redux/action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../firstPro/my-app/src/redux/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../firstPro/my-app/src/redux/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../firstPro/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-overrides.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/cookbook-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/cookbook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/location-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/location.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/menu-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/more-active.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/more.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/style/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/swiper-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/swiper-2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/swiper-3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/aa.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/search/Search.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/search/style/border.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/search/styledSearch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mock/cookbook-category.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mock/cookbook-detail.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mock/cookbook-hotcate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mock/cookbook-list.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mock/mock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mock/mockRouter.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/action-types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/cookbook/Cookbook.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/cookbook/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/cookbook/HotCate.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/cookbook/styledCookbook.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/cookbook/swiper.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/sagas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/sagas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/http.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../firstPro/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../firstPro/my-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../firstPro/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../firstPro/my-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../firstPro/my-app/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../firstPro/my-app/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../firstPro/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../firstPro/my-app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../firstPro/my-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../firstPro/my-app/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/category/Category.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/category/styledgory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/category/Category.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/category/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/category/styledCategory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/cookbook/hotlist.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/map/Map.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-overrides.js" beforeDir="false" afterPath="$PROJECT_DIR$/config-overrides.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mock/mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mock/mock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/LayOut.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/LayOut.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/cookbook/Cookbook.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/cookbook/Cookbook.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/cookbook/HotCate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/cookbook/HotCate.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/cookbook/styledCookbook.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/cookbook/styledCookbook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/cookbook/swiper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/cookbook/swiper.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/sagas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -115,6 +52,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -144,7 +82,8 @@
       <updated>1605696112553</updated>
       <workItem from="1605696118268" duration="2432000" />
       <workItem from="1605702527071" duration="1727000" />
-      <workItem from="1605705747654" duration="40027000" />
+      <workItem from="1605705747654" duration="93378000" />
+      <workItem from="1606119447495" duration="1348000" />
     </task>
     <servers />
   </component>
@@ -171,9 +110,9 @@
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="2685" y="169" key="RollbackChangesDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605711226148" />
-    <state x="2394" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1605792721303">
+    <state x="2394" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1605981996044">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="2394" y="255" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605792721303" />
+    <state x="2394" y="255" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605981996044" />
   </component>
 </project>

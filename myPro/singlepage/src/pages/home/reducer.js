@@ -1,7 +1,8 @@
 import { LOADDATA,SETSHOW } from './action-types'
 
 const defaultState={
-  list:[]
+  list:[],
+  isShow:true
 }
 export default (state=defaultState,action)=>{
   switch(action.type){
@@ -10,6 +11,11 @@ export default (state=defaultState,action)=>{
         list:action.data
       }
       break;
+    case SETSHOW:
+      return{
+        ...state,
+        isShow:action.data
+      }
     default:
       return state;
       break;

@@ -38,11 +38,13 @@ class HotCate extends Component {
     return (
       <HotCateWrap>
         <header>热门分类</header>
-        <Grid data={this.state.hotList}
-              columnNum={3}
-              hasLine={false}
-              renderItem={this._renderItem}
-        />
+
+          <Grid data={this.state.hotList}
+                columnNum={3}
+                hasLine={false}
+                renderItem={this._renderItem}
+          />
+
       </HotCateWrap>
     )
   }

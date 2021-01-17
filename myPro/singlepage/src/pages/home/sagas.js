@@ -5,6 +5,7 @@ function* loadData(action){
   const result=yield get({
     url:action.url
   })
+  yield put({type:types.LOADDATA,data:result.data})
 }
 export {
   types,

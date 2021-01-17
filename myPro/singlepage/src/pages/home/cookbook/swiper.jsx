@@ -17,30 +17,36 @@ const mapDispatch=dispatch=>({
       type:GETLIST,
       url:"/api/list"
     })
+
   }
 })
+@connect(mapState,mapDispatch)
+
 class Swiper extends Component {
   componentDidMount () {
     this.props.loadData()
-    console.log(GETLIST)
+    // console.log(this.props)
   }
 
   render () {
     return (
       <SwiperWrap>
+        {this.props.list.length&&
         <Carousel
-          autoplay={false}
+          autoplay={true}
           infinite
-          beforeChange={(from, to) => console.log(`slide from ${from} to ${to}`)}
-          afterChange={index => console.log('slide to', index)}
+          // beforeChange={(from, to) => console.log(`slide from ${from} to ${to}`)}
+          // afterChange={index => console.log('slide to', index)}
         >
           {
             this.props.list.slice(0,5).map((value)=> <img alt="keke" key={value.id} src={value.img}/>)
           }
         </Carousel>
+        }
       </SwiperWrap>
     )
   }
 }
 
-export default connect(mapState,mapDispatch)(Swiper)
+// export default connect(mapState,mapDispatch)(Swiper)
+export default Swiper
